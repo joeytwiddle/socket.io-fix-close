@@ -1,0 +1,23 @@
+{
+  "name": "socket.io-fix-close",
+  "version": "0.0.1",
+  "description": "Make sure socket.io server closes properly, by kicking off any active clients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://joeytwiddle@github.com/joeytwiddle/socket.io-fix-close.git"
+  },
+  "keywords": [
+    "socket.io",
+    "bugfix"
+  ],
+  "author": "Paul \"Joey\" Clark and Daniel Ilkovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeytwiddle/socket.io-fix-close/issues"
+  },
+  "homepage": "https://github.com/joeytwiddle/socket.io-fix-close#readme"
+}
