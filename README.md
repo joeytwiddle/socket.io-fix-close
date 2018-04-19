@@ -11,6 +11,10 @@ The code was based on [ilkovich's snippet](https://github.com/socketio/socket.io
 Example usage:
 
 ```js
+const express = require('express');
+const socketIO = require('socket.io');
+const wireUpServer = require('socket.io-fix-close');
+
 const app = express();
 const httpServer = app.listen(8000);
 const io = socketIO(httpServer);

@@ -1,6 +1,6 @@
 {
   "name": "socket.io-fix-close",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make sure socket.io server closes properly, by kicking off any active clients",
   "main": "index.js",
   "scripts": {
